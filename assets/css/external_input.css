@@ -1,0 +1,71 @@
+.external_input{
+    display: none;
+    border: 1px solid #405679;
+    padding: 8px 0px;
+    width: 344px;
+    position: absolute;
+    background: #647ca2;
+    z-index: 99999;
+    border-radius: 3px;
+    box-shadow: rgba(29, 33, 42, 0.42) 2px 2px 20px 3px;
+}
+
+.external_input input, .external_input select{
+    border-color: rgb(179,179,179);
+    display: inline;
+}
+
+.external_input input{
+    width: 37%;
+    margin-left: 5px;
+    border-color: #27354a !important;
+}
+
+.external_input select{
+    width: 20%;
+    margin-right: 5px;
+    margin-left: 5px;
+    border-color: #27354a !important;
+}
+
+.external_input_ii{
+    display: none;
+    border: 1px solid #405679;
+    padding: 8px 0px;
+    width: 262px;
+    padding-left: 5px;
+    position: absolute;
+    background: #647ca2;
+    z-index: 99999;
+    border-radius: 3px;
+    box-shadow: rgba(29, 33, 42, 0.42) 2px 2px 20px 3px;
+}
+
+.external_input_ii input{
+    width: 48%;
+    margin-right: 5px;
+    border-color: #27354a !important;
+    display: inline;
+}
+
+.external_input_ss{
+    display: none;
+    border: 1px solid #405679;
+    padding: 8px 0px;
+    width: 262px;
+    padding-left: 5px;
+    position: absolute;
+    background: #647ca2;
+    z-index: 99999;
+    border-radius: 3px;
+    -webkit-box-shadow:rgba(196, 196, 196, .5) 2px 2px 8px 1px;
+    -moz-box-shadow:rgba(196, 196, 196, .5) 2px 2px 8px 1px;
+    box-shadow: rgba(29, 33, 42, 0.42) 2px 2px 20px 3px;
+}
+
+.external_input_ss select{
+    width: 48%;
+    margin-right: 5px;
+    border-color: #27354a !important;
+    display: inline;
+}

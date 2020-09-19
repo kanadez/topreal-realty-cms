@@ -1,0 +1,105 @@
+@media (min-width: 1025px)
+body{
+   padding: 0px;
+   margin: 0px;
+}
+
+p{
+   font-family: "Copernicus",Georgia,"Times New Roman",Times,serif;
+   font-weight: 500;
+   font-style: normal;
+   -webkit-font-smoothing: antialiased;
+   font-size: 15px;
+   line-height: 28px;
+   letter-spacing: 0;
+}
+
+span{
+   color: #2e2e2e;
+   font-size: 55px;
+}
+
+#topmenu
+{
+   background-color: #34AEEB;
+   border-bottom: 4px solid #D10D0D;
+   height: 75px;
+}
+
+#content
+{
+background-color: #edeceb;
+   padding: 0px;
+   margin: 0px;
+   height: 300px;
+}
+
+h1{
+display: block;
+}
+
+#error_message {
+line-height: 64px;
+font-family: "LLCircularWeb-Medium","Helvetica Neue",Helvetica,Arial,sans-serif;
+font-weight: normal;
+font-style: normal;
+-webkit-font-smoothing: antialiased;
+font-size: 92px;
+line-height: 33px;
+color: #247fff;
+letter-spacing: 2px;
+padding: 84px;
+margin: 0px;
+}
+
+#content p{
+   padding: 0px 84px;
+}
+
+.navigation{
+  float:right;
+  margin: 24px 50px;
+}
+
+.navigation ul{
+font-family: "LLCircularWeb-Medium","Helvetica Neue",Helvetica,Arial,sans-serif;
+font-size: 12px;
+letter-spacing: 2px;
+line-height: 11px;
+margin: 0px;
+padding:0px;
+list-style: none;
+font-weight: bolder;
+}
+
+.navigation ul li{
+display: inline;
+}
+
+.navigation ul a
+{
+  color: white;
+  line-height: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 10px 10px;
+}
+
+
+#footer{
+  height:100px;
+  margin-top: 30px;
+}
+
+.contact:before{
+  content: "\2706";
+  font-size: 42px;
+}
+
+.social{
+position: relative;
+top: -20px;
+float: right;
+padding-right: 50px;
+}

@@ -1,0 +1,247 @@
+.form-control{
+    font-size: 13px;
+}
+
+/*.form-horizontal .control-label{
+    color: #090909 !important;
+}*/
+
+#unreduce_button{
+    margin: 7px 15px 0 0;
+    float: right;
+}
+
+#switch_to_list_button{
+    margin: 0;
+    float: right;
+    min-width: 82px;
+}
+
+#switch_to_list_button>span{
+    display: inline-block;
+    vertical-align: top;
+    line-height: 25px;
+}
+
+#switch_to_list_button>i{
+    font-size:1.9em;
+}
+
+#stock_check_wrapper{
+    margin-bottom: 0px !important;
+    float: left;
+}
+
+#client_results_area{
+    margin-top: 20px;
+}
+
+#synonim_cant_see_alert{
+    margin: -44px 13px 10px 15px;
+    z-index: 999 !important;
+    position: absolute;
+    font-size: 1em;
+    padding: 0px 29px 0px 15px;
+    width: 469px;
+    height: 38px;
+}
+
+#sorting_group{
+    float: left;
+    margin: 5px 10px 0px -10px;
+}
+
+#finded_counters_wrapper{
+    width: 100%;
+    clear: both;
+    padding-top: 5px;
+}
+
+
+#legend_wrapper{
+    width: 74%;
+    float: right;
+}
+
+#synonim_cant_see_alert_tip{
+    float: right;
+    margin-right: -3px;
+    margin-top: 10px;
+}
+
+#back_to_collected_card_a, #back_to_collected_card_from_client_a, #update_collected_card_a, #back_to_the_list_a{
+    margin: 5px 15px 0;
+}
+
+#search_name_wrapper{
+    display: inline;
+}
+
+#response_div{
+    padding: 96px 0;
+}
+
+.search_form_wrapper{
+    padding: 10px 15px 0 15px;
+    border: 1px dashed rgb(131, 157, 195);
+    background-color: rgba(184, 198, 219, 0.76);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.search_form_wrapper label{
+    color: #314a6f !important;
+}
+
+.search_form_wrapper .form-control{
+    border-color: rgb(131, 157, 195);
+}
+
+.search_form_wrapper ul.tagit{
+    border-color: rgb(131, 157, 195)
+}
+
+#list_search_button{
+    float: right;
+    padding: 6px 12px;
+}
+
+.query_action_button{
+    float: right;
+    padding: 6px 12px;
+}
+
+#sorting_button{
+    margin-left: 10px;
+}
+
+#try_now_code_error_div{
+    margin: 0px;
+    padding: 10px;
+}
+
+#streets_block_wrapper_div{
+    background: #d1eae3;
+    padding: 10px 7px 1px 12px;
+    width: 104%;
+    margin-left: -11px;
+    margin-bottom: 5px;
+    border: 1px solid #a6ccc1;
+    border-style: dashed;
+    border-radius: 5px;
+}
+
+#streets_block_wrapper_div input, #streets_block_wrapper_div select, #streets_block_wrapper_div ul{
+    border-color: #c3c3c3;
+}
+
+#route{
+    overflow:hidden;
+    background: #fff !important;
+}
+
+.contours_hidden_button{
+    background: #fff;
+    border: 0px;
+    color: #ddd;
+}
+
+#search_form_toggler{
+    position: absolute;
+    top: 45%;
+    left: 97%;
+    width: 12px;
+    height: 35px;
+    margin-top: -17px;
+    cursor: pointer;
+    border-left: 0;
+    border-radius: 0 3px 3px 0;
+    background: rgb(88, 107, 134);
+    padding: 8px 0 0 3px;
+    color: #fff;
+}
+
+#search_form_toggler:after{
+    content: "❰";
+}
+
+#search_form_toggler.changed:after{
+    content: "❱";
+}
+
+#left_side_panel_div{
+    min-height: 531px;
+}
+
+.external_check_wrapper{
+    margin-top: 10px;
+    margin-right: 10px;
+    float: left;
+}
+
+.external_check_wrapper label{
+    padding-left: 7px;
+}
+
+.external_check_wrapper input{
+    margin-left: 10px;
+}
+
+#query_sided_panel_div{
+    padding: 20px 15px 15px 15px;
+}
+
+#saved_searches_modal .no_results{
+    text-align: center;
+    font-style: italic;
+    color: #777;
+}
+
+#external_card_for_comparison_wrapper_div{
+    margin: 0 0 0 15px;
+}
+
+#external_card_for_comparison_title_span{
+    font-weight: bold;
+}
+
+#query_sided_panel_div > div .form-group{
+    margin-bottom: 4px;
+}
+
+#route_input{
+    margin-bottom: 5px;
+}
+
+.property_results_wrapper_onboarding{
+    border: 2px solid #0000001f;
+    border-radius: 10px;
+    border-style: dashed;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-bottom: 159px;
+    padding-top: 159px;
+}
+
+.not_empty{
+    background: #faffbd;
+}
+
+.list_card_open_loader{
+    background-image: url(../img/fullscreen_loader.gif);
+    width: 482px;
+    height: 445px;
+    background-color: rgba(255, 255, 255, 0.7);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 30%;
+    z-index: 9999;
+    position: absolute;
+    top: 0;
+}
+
+#contact_form .radio > label{
+    margin-bottom: -9px;
+}

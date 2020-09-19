@@ -1,0 +1,101 @@
+.quotes_table{
+    width: 563px;
+    position: absolute;
+    margin-top: -128px;
+    font-size: 0.9em;
+    margin-left: 2px;
+    background: transparent;
+    display: none;
+    opacity: 0;
+    border-spacing: 20px 0;
+    border-collapse: separate;
+}
+
+.quotes_table td{
+    background: #dfe3e9;
+}
+
+.quotes_table td>span{
+    width: 100%;
+    display: inline-block;
+    font-style: italic;
+    text-align: center;
+    color: #777;
+    cursor: pointer;
+    padding: 2px 0;
+}
+
+.quotes_table td>span:hover{
+    color: #000;
+}
+
+.quotes_top_td{
+    padding-top: 3px;
+    border-top: 1px dashed rgb(168,179,186);
+    border-left: 1px dashed rgb(168,179,186);
+    border-right: 1px dashed rgb(168,179,186);
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+.quotes_middle_td{
+    border-left: 1px dashed rgb(168,179,186);
+    border-right: 1px dashed rgb(168,179,186);
+}
+
+.quotes_bottom_td{
+    padding-bottom: 3px;
+    border-bottom: 1px dashed rgb(168,179,186);
+    border-left: 1px dashed rgb(168,179,186);
+    border-right: 1px dashed rgb(168,179,186);
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.quotes_button{
+    padding: 1px 9px !important;
+}
+
+.quote_checkbox{
+    margin: 0 3px !important;
+}
+
+.quote_label{
+    margin: 0 !important;
+    cursor: pointer;
+    width: 121px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.quote_label:hover{
+    color: #000;
+}
+
+#quote_buttons_panel{
+    width: 100%;
+}
+
+#new_quote_input{
+    width: 90%;
+    height: 20px;
+}
+
+#edit_quote_input{
+    width: 80%;
+    height: 20px;
+}
+
+#quotes_title_span{
+    width: 82%;
+}
+
+.quotes_disabled_button{
+    background-color: #eee !important;
+    border-color: #eee !important;
+}
+
+.quote_edit_a{
+    float: right;
+    margin: 0px 5px 0 0;
+}

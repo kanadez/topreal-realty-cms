@@ -1,0 +1,129 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 20.02.2016, 17:24:36
+    Author     : x
+*/
+
+#properties_select{
+    
+}
+
+#photo_dummy_img{
+    width: 100%;
+}
+
+#remarks_area{
+    height: 130px;
+    direction: rtl;
+}
+
+#pictures_count_div, #docs_count_div, #doc_name_div, #picture_name_div{
+    text-align: left;
+}
+
+#pictures_label, #documents_label{
+    background-color: rgba(0,0,0,0) !important;
+}
+
+.contact_buttons_block{
+    padding: 0;
+    text-align: right;
+}
+
+#agreement_number_input{
+    width: 130px;
+}
+
+#import_csv_caption{
+    float: left; 
+    margin-right: 10px;
+}
+
+#stock_check_wrapper{
+    min-height: 24px;
+    margin-bottom: 0px;
+}
+
+#price_before_input_wrapper{
+    padding-right: 0px;
+}
+
+#num_input_wrapper{
+    padding-right: 15px;
+    float: right;
+}
+
+.col-md-15{
+    width:12%;
+}
+
+.new_ad_warning{
+    padding: 2px;
+    margin-right: 0;
+    width: fit-content;
+    margin-bottom: 0;
+}
+
+.stock_badge{
+    color: rgb(76, 132, 129);
+    background-color: rgb(177, 255, 251);
+    border-color: rgb(142, 224, 220);
+}
+
+.events a{
+    margin-left: 10px;
+    display: block;
+    float: left;
+    margin-right: 5px;
+    border: 1px solid rgba(0,0,0,.53);
+    padding: 1px;
+    border-radius: 6px;
+    width: 24px;
+    background-position: center;
+    height: 24px;
+    text-align: center;
+}
+
+.events span{
+    float: left;
+}
+
+.event_a{
+    width: 14px;
+    height: 14px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 3px;
+}
+
+#event_appointment_a{
+    background-image: url(../img/meeting.png);
+    background-size: 73%;
+    margin-top: 0;
+}
+
+#event_visit_a{
+    background-image: url(../img/visit.png);
+    background-size: 73%;
+    margin-top: 0;
+}
+
+a.bordered{
+    border: 1px solid rgba(0,0,0,.53);
+    border-radius: 6px;
+    width: 24px;
+    background-position: center;
+    height: 24px;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+#collected_open_stock_a{
+    padding-top: 4px;
+    margin-top: -2px;
+}

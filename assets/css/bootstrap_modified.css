@@ -1,0 +1,151 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+
+Desc: my changes to Bootstrap
+*/
+/* 
+    Created on : 05.03.2016, 19:42:08
+    Author     : Kanadez
+*/
+
+.form-group-combined{
+    padding: 0 0 0 15px;
+}
+
+.form-horizontal .control-label {
+    padding-right: 0;
+    color: #aaa;
+    white-space: nowrap;
+}
+
+.form-horizontal .select-label {
+    padding-right: 0;
+    padding-top: 0;
+}
+
+.form-horizontal .select-label select{
+    float: right;
+    width: 80%;
+}
+
+.form-horizontal .select-label-narrow select{
+    width: 100%;
+    font-weight: normal;
+    color: #aaa;
+    margin-top: -2px;
+    font-size: 1.4em;
+    margin-bottom: 3px;
+}
+
+.search_form_wrapper .select-label-narrow select{
+    border-color: #adbeda;
+    background-color: #adbeda;
+    color: #314a6f;
+}
+
+.form-group-element-wrapper-left{
+    padding: 0 5px 0 15px;
+}
+
+.form-group-element-wrapper-right{
+    padding: 0 0 0 0;
+}
+
+.form-group-element-wrapper-center{
+    padding: 0 5px 0 0;
+}
+
+.form-control[disabled], .form-control[readonly], fieldset[disabled] .form-control {
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.light_color{
+    color: #aaa !important;
+}
+
+label{
+    overflow: hidden;
+}
+
+.label.select-label-narrow{
+    padding: .2em 0em .3em .6em !important;
+}
+
+@media (min-width: 1200px) {
+    .col-sm-1_5{
+        width: 12.49999% !important;
+    }
+
+    .col-sm-0_7{
+        width: 6.29999% !important;
+    }
+}
+
+@media (min-width: 992px) {
+    .col-sm-1_5{
+        width: 12.49999% !important;
+    }
+
+    .col-sm-0_7{
+        width: 6.29999% !important;
+    }
+}
+
+@media (min-width: 768px) {
+    .col-sm-1_5{
+        width: 12.49999% !important;
+    }
+
+    .col-sm-0_7{
+        width: 6.29999% !important;
+    }
+}
+
+@media (max-width: 1200px) {
+    
+}
+
+.sided_panel{
+    /*background: -webkit-linear-gradient(left, rgba(128, 128, 128, 0.08), rgba(128, 128, 128, 0.08) 9.6%, white 9.6%, white);*/
+}
+
+.white_label{
+    box-shadow: none !important;
+    background-color: white !important;
+}
+
+.darked_labels label{
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.form-control[disabled]{
+    background-color: rgba(85, 107, 141, 0.19) !important;
+}
+
+textarea{
+    background: url(../img/pencil.png) no-repeat scroll 7px 7px !important;
+    padding-right: 37px !important;
+    background-position: 95% 94% !important;
+}
+
+.dropdown-menu>li>button {
+    background: white;
+    text-align: left;
+    padding: 3px 20px;
+    display: block;
+    border: none;
+    white-space: nowrap;
+    width: 100%;
+}
+
+.dropdown-menu>li>button:hover {
+    background: #f5f5f5;
+}
+
+.btn-group, .btn-group-vertical {
+    margin-left: 6px;
+}

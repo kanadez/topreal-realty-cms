@@ -1,0 +1,331 @@
+#total_pricing_wrapper{
+    margin-top: -5px;
+}
+
+.small_button{
+    padding: 4px 14px !important;
+    font-size: 0.7em;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+
+.pricing_calculator_msg3{
+    color: rgb(255,94,94);
+}
+
+#step3_label{
+    margin-top: 15px;
+    font-weight: bold;
+    color: #000;
+}
+
+.duplicate_span{
+    color: red;
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: .8em;
+}
+
+#password_easy_alert_span, #email_input_validate_span{
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: .7em;
+    color: #a2a220;
+}
+
+.monthly_total_span, #checkout_total_span{
+    font-weight: bold;
+    font-size: 1.4em;
+    color: #FF9037;
+}
+
+.discount_span{
+    color: #FF9037;
+}
+
+#total_span{
+    font-size: .9em;
+}
+
+.checkout_field_span{
+    font-size: 0.89em;
+    color: white;
+}
+
+#confirmation_code_input {
+    width: 18% !important;
+    float: left;
+    height: 31px;
+}
+
+#confirm_email_button{
+    padding: 6px 23px;
+    margin: -2px 0 0 13px;
+}
+
+#register_button{
+    width:50%;
+    margin-left: 0;
+}
+
+#step1_next_button:hover{
+    background: #FF9037;
+    border: 1px solid #FF9037;
+}
+
+#direct_payment_instruction_span{
+    color: #000;
+}
+
+.show_password_span {
+    right: 21px;
+    position: absolute;
+    top: 5px;
+    cursor:pointer;
+}
+
+.direct_payment_wrapper{
+    border: 1px solid rgba(25,34,44,0.1);
+    padding: 12px 31px;
+    margin-right: 20px;
+    background: #f6f7f9;
+}
+
+#direct_payment_info_panel_div{
+    font-size: 0.8em;
+    text-shadow:rgb(255, 255, 255) 0px 1px 0px;
+}
+
+#order_thanks_div{
+    margin-top: -182px;
+    margin-left: 141px;
+    font-size: 2.5em;
+    color: #b9b9b9;
+    text-shadow:rgb(255, 255, 255) 0px 1px 1px;
+}
+
+#payment_finish_image_wrapper{
+    background: url(../../assets/img/payment_success.png);
+    height: 141px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    opacity: 0.8;
+    margin-top: 86px;
+}
+
+#registration_form_wrapper_div input{
+    width: 105.5%;
+}
+
+
+#paypal_subscription_button{
+    width: 26%;
+    clear: both;
+    height: 36px !important;
+    margin-top: -110px;
+    display: block;
+    margin-left: 13px;
+    opacity: 0;
+    cursor: pointer;
+    float: right;
+    margin-right: 210px;
+}
+
+#paypal_buynow_button{
+    width: 26%;
+    clear: both;
+    height: 36px !important;
+    margin-top: -110px;
+    display: block;
+    margin-left: 13px;
+    opacity: 0;
+    cursor: pointer;
+    float: right;
+    margin-right: 210px;
+}
+
+#direct_payment_approval_email_div{
+    color: rgb(168,154,44);
+}
+
+#fail_wrapper_div, #success_wrapper_div{
+    margin-top: 122px;
+}
+
+#continue_register_wrapper{
+    text-align: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+#start_new_register_button{
+    margin-left: 10px;
+}
+
+#continue_register_wrapper>a{
+    margin-top: 20px;
+}
+
+.pricing input, .pricing select{
+    height: 25px;
+    border-radius: 2px;
+}
+
+.pricing select{
+    padding: 1px 6px;
+}
+
+.pricing .form-group{
+    margin-bottom: 5px;
+}
+
+.pricing label{
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.green_text{
+    direction: ltr;
+    font-size: .8em;
+    color: #4fa950;
+    text-align: center;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.checkout_safety_panel{
+    font-style: italic;
+    font-size: 0.75em;
+    padding-top: 10px;
+}
+
+.g-recaptcha{
+    transform: scale(0.9);
+    -webkit-transform: scale(0.9);
+    transform-origin:0 0;
+    -webkit-transform-origin:0 0;
+}
+
+.pac-container {
+    z-index: 9999;
+}
+
+#register_data_modal .modal-body{
+    max-height: 510px;
+    overflow-y: scroll;
+}
+
+.confirm_form{
+    height: 0px;
+    overflow: hidden;
+}
+
+#paypal_buynow_form, #paypal_subscription_form{
+    height: 0px;
+}
+
+#try_pay_again_a, #login_on_signup_a{
+    background-color: #FF9037;
+    color: #ffffff;
+}
+
+#payment_result_span{
+    color: white;
+}
+
+@media (max-width: 768px){
+    #register_button, #confirm_email_button{
+        width: 100%;
+    }
+    
+    #confirm_email_button{
+        margin-left: 0px;
+    }
+    
+    #confirmation_code_input{
+        width: 100% !important;
+        margin-bottom: 10px;
+    }
+    
+    .g-recaptcha{
+        transform:scale(0.3);
+        -webkit-transform:scale(0.3);
+        transform-origin:0 0;
+        -webkit-transform-origin:0 0;
+    }
+    
+    #paypal_subscription_button{
+        margin-top: -234px;
+    }
+    
+    #paypal_buynow_button{
+        margin-top: -203px;
+    }
+}
+
+@media (max-width: 1200px){
+    #register_button, #confirm_email_button{
+        width: 100%;
+    }
+    
+    #confirm_email_button{
+        margin-left: 0px;
+    }
+    
+    #confirmation_code_input{
+        width: 100% !important;
+        margin-bottom: 10px;
+    }
+    
+    .g-recaptcha{
+        transform:scale(0.3);
+        -webkit-transform:scale(0.3);
+        transform-origin:0 0;
+        -webkit-transform-origin:0 0;
+    }
+    
+    #paypal_subscription_button{
+        margin-top: -234px;
+    }
+    
+    #paypal_buynow_button{
+        margin-top: -203px;
+    }
+}
+
+@media (max-width: 1024px){
+    #register_button, #confirm_email_button{
+        width: 100%;
+    }
+    
+    #confirm_email_button{
+        margin-left: 0px;
+    }
+    
+    #confirmation_code_input{
+        width: 100% !important;
+        margin-bottom: 10px;
+    }
+    
+    .g-recaptcha{
+        transform:scale(0.3);
+        -webkit-transform:scale(0.3);
+        transform-origin:0 0;
+        -webkit-transform-origin:0 0;
+    }
+    
+    #paypal_subscription_button{
+        margin-top: -173px;
+    }
+    
+    #paypal_buynow_button{
+        margin-top: -145px;
+    }
+}

@@ -1,0 +1,424 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 07.06.2016, 14:58:11
+    Author     : kanadez
+*/
+
+#locale_select{
+    margin-top: 7px;
+    width: 100%;
+    margin-left: 11px;
+    color: white;
+    font-size: 0.813em;
+    text-transform: uppercase;
+    font-weight: 700;
+    box-shadow: none !important;
+    background: transparent;
+}
+
+#new_account_a{
+    color: #FF9037;
+    border: 1px solid #FF9037;
+    padding: 6px 14px;
+    background: #fff;
+    margin: 8px 13px 0 13px;
+    /* box-shadow: rgba(0, 0, 0, 0.290196) 0px 2px 6px 0px; */
+}
+
+#new_account_a:hover{
+    background: #FF9037;
+    color: white;
+}
+
+.align_left{
+    text-align: left !important;
+}
+
+label.lefted{
+    text-align: left !important;
+    font-size: .7em !important;
+    padding-top: 4px !important;
+}
+
+label.righted{
+    text-align: right !important;
+    font-size: .7em !important;
+    padding-top: 4px !important;
+}
+
+input, select{
+    font-size: 12px !important;
+}
+
+
+
+#monthly_total_label{
+    color: #FF9037;
+    padding-right: 9px;
+}
+
+#order_buttons_block_div{
+    /*text-align: center; */
+}
+
+.action_button{
+    background: #FF9037;
+    color: white !important;
+    border: 1px solid #FF9037;
+    padding: 6px 30px;
+    margin: 8px 13px 0 13px;
+    border-radius: 3px;
+    font-weight: bold;
+    text-decoration: none !important;
+}
+
+.action_button:hover{
+    background: #ff7100;
+    border: 1px solid #ff7100;
+}
+
+.action_button.blue{
+    background: #556b8d;
+    border-color: #556b8d;
+}
+
+.action_button.blue:hover{
+    background: #5f779d;
+    border-color: #5f779d;
+}
+
+#message_textarea{
+    height: 100px;
+}
+
+#pricing_table{
+    margin-left:auto; 
+    margin-right:auto;
+}
+
+.margin45{
+    margin-top:45px;
+}
+
+.margin20{
+    margin-top: 28px;
+}
+
+.margin10{
+    margin-top: 10px;
+}
+
+.bottom20{
+    margin-bottom: 28px;
+}
+
+.secondary_button{
+    background: #5e81a8;
+    border: 1px solid #5e81a8;
+    color: white !important;
+    padding: 6px 14px;
+    margin: 8px 13px 0 13px;
+    border-radius: 3px;
+    font-weight: bold;
+    text-decoration: none !important;
+}
+
+.secondary_button:hover{
+    background: #405e80;
+    border: 1px solid #405e80;
+}
+
+.left_floated_label{
+    margin-right: 10px;
+}
+
+.lighted_small_text{
+    font-size: 0.7em;
+    opacity: 0.6;
+}
+
+.blue_link{
+    font-size: 0.7em;
+    color: #556b8d;
+}
+
+@media print{
+    body{
+        font-size: 16pt !important;
+    }
+    
+    @page {
+        size: auto;
+        margin: 0mm 15mm 10mm 15mm;
+    }
+    
+    .contact_input_wrapper{
+        width: 74.99997% !important;
+    }
+    
+    .contact_wrapper{
+        width: 100%;
+    }
+    
+    .contact_label, #home_label, .list_item_number{
+        display: inline-block;
+    }
+    
+    #header, button, a, #uploads_wrapper, .empty, .remark_input_wrapper, .contact_buttons_block, #object_type_select_wrapper, .dropdown-menu{
+        display: none !important;
+    }
+    
+    #printing_header_section, #printing_footer_section, #printing_card_header_wrapper{
+        display: block !important;
+    }
+    
+    .main-content-wrapper{
+        padding-top: 0px !important;
+    }
+    
+    label{
+        margin-top: -8px;
+    }
+    
+    input, select, textarea{
+        border: 0px !important;
+        overflow: hidden;
+    }
+    
+    #remarks_area_wrapper, #details_area_wrapper{
+        margin-left: 0 !important;
+    }
+    
+    #col1, #col2{
+        width: 100% !important;
+    }
+    
+    select{
+        -webkit-appearance: none;
+    }
+    
+    ::-webkit-input-placeholder { /* WebKit browsers */
+        color:    #fff;
+    }
+    :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+       color:    #fff;
+       opacity:  1;
+    }
+    
+    ::-moz-placeholder { /* Mozilla Firefox 19+ */
+       color:    #fff;
+       opacity:  1;
+    }
+    
+    :-ms-input-placeholder { /* Internet Explorer 10+ */
+       color:    #fff;
+    }
+    
+    #status_select_wrapper, #select_agent_wrapper, #status_select_label, #select_agent_label, #rooms_count_input_wrapper, #status_select_label, #select_status_wrapper{
+        width: 25% !important;
+    }
+    
+    #rooms_count_input_label, #freefrom_input_label, #freefrom_input_wrapper, #age_from_select_label, #age_from_select_wrapper{
+        width: 23% !important;
+    }
+    
+    #floors_from_input_wrapper, #rooms_count_from_input_wrapper{
+        width: 10%;
+    }
+    
+    #currency_select_wrapper{
+        width: 14%;
+    }
+    
+    #price_from_wrapper{
+        width: 19%;
+    }
+    
+    #route_input{
+        border: 0px;
+    }
+    
+    #property_results_table tr.hl > td, #client_results_table tr.hl > td{
+        box-shadow: inset 0 0 0 1000px #f5f5f5 !important;
+    }
+    
+    #left_side_panel_div, #order_thanks_div, #direct_checkout_finish_button, #change_order_details_a, #print_a, #email_a, #footer{
+        display: none;
+    }
+    
+    #right_side_panel_div{
+        width: 100%;
+    }
+    
+    .label_right {
+        text-align: right !important;
+        padding-right: 10px !important;
+        box-shadow: rgba(255, 255, 255, 0) 0px 9px 0px 0px !important;
+        background: #fff !important;
+    }
+    
+    #pricing{
+        padding: 10px 0 !important;
+    }
+    
+    .form-group{
+        margin-bottom: 2px;
+    }
+}
+
+#pricing_a{
+    /*color: rgb(199,162,131);*/
+}
+
+#advantages_panel_div{
+   margin-top: 30px;
+   
+    padding: 0 144px;
+}
+
+#advantages_table{
+    margin-top: 70px;
+    margin-bottom: 30px;
+       margin-left: auto;
+   margin-right: auto;
+    width: 100%;
+}
+
+#portfolio_panel_div{
+   margin-top: 36px;
+}
+
+#order_panel_div{
+   margin-top: 63px;
+}
+
+#prices_panel_div{
+   margin-top: 37px;
+}
+
+#portfolio_table{
+   background: rgba(0,0,0,0);
+   margin-bottom: 77px;
+   margin-left: auto; 
+   margin-right: auto; 
+   width: 100%; 
+}
+
+#prices_table{
+   background: rgba(0,0,0,0);
+   width: 100%;
+}
+
+.advantages_table_td{
+    width:40%;
+}
+
+.advantages_table_caption{
+    font-size: 1em;
+    color: #000;
+    font-weight: bold;
+   text-align: center;
+    padding: 20px 23px;
+}
+
+.advantages_table_desc{
+    font-size: 0.8em;
+    color: #000;
+    font-weight: normal;
+    padding: 0 23px;
+}
+
+.profit_container{
+    text-align: center;
+}
+
+.line {
+    width: 140px;
+    height: 2px;
+    background: #75DBD7;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 10px;
+    padding: 0 !important;
+}
+
+#try_now_top_button{
+    margin-left: 0px;
+    margin-bottom: -5px;
+    box-shadow: 0px 4px 19px 0px #00000036;
+    color: #395673;
+    background-color: #C8CDD2;
+}
+
+#register_now_button{
+    background-color: #FF9037;
+    margin-top: 10px;
+    margin-right: 10px;
+    color: #ffffff;
+    box-shadow: 0px 4px 19px 0px #00000036;
+}
+
+.backdrop{
+   background: #000;
+   position: fixed;
+   z-index: 99999999;
+   top: 0;
+   left: 0;
+   opacity: .8;
+}
+
+.curved_arrow_top{
+    position: fixed;
+    top: 130px;
+    left: 200px;
+}
+
+#allow_geoloc_request_span{
+    position: fixed;
+    top: 291px;
+    left: 312px;
+    width: 600px;
+}
+
+#yt_a_div{
+    direction: ltr;
+    float: right;
+    margin-top: -230px;
+    margin-right: 2%;
+    color: #fff;
+}
+
+#yt_a_div > a{
+    margin-left: 7px;
+}
+
+#yt_a_div > a > img{
+    width: 80px;
+}
+
+#yt_a_div > .second{
+    font-size: 0.72em;
+    display: inline-block;
+}
+
+#login_spinner_i{
+    margin-top: 15px;
+    float: left;
+    opacity: 0;
+}
+
+@media (max-width: 768px){
+    #advantages_panel_div {
+        padding: 0;
+    }
+}
+
+@media (max-width: 1200px){
+    #register_now_button{
+        margin-right: 20px;
+    }
+}

@@ -1,0 +1,84 @@
+.autocomplete-icon-marker {
+    background-position: -1px -161px;
+}
+
+.autocomplete-icon {
+    width: 15px;
+    height: 15px;
+    margin-right: 7px;
+    margin-top: 6px;
+    display: inline-block;
+    vertical-align: top;
+    background-image: url(/../../assets/img/ac_location.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.autocomplete-item-query {
+    font-size: 13px;
+    padding-right: 3px;
+    color: #000;
+}
+
+.autocomplete-matched {
+    font-weight: 700;
+}
+
+.autocomplete-matched-secondary {
+    font-weight: normal;
+    opacity: 0.7;
+}
+
+.autocomplete-container {
+    background-color: #fff;
+    position: absolute!important;
+    z-index: 1000;
+    border-radius: 2px;
+    border-top: 1px solid #d9d9d9;
+    font-family: Arial,sans-serif;
+    box-shadow: 0 -1px 6px rgba(0,0,0,0.3);
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.autocomplete-item {
+    cursor: pointer;
+    padding: 0 10px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    line-height: 30px;
+    text-align: left;
+    border-top: 1px solid #e6e6e6;
+    font-size: 11px;
+    color: #999;
+}
+
+.autocomplete-item:hover{
+    background: #fafafa;
+}
+
+.autocomplete_caption{
+    color: #aaa;
+}
+
+.autocomplete_logo{
+    background-image: url(/../../assets/img/powered-by-google.png);
+    background-image: url(/../../assets/img/powered-by-google.png);
+    height: 16px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: 99%;
+}
+
+.tagit-label{
+    font-size: .9em;
+}
+
+#route_input input{
+    width: 200px;
+    font-size: .9em;
+}

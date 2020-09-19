@@ -1,0 +1,75 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 16.02.2016, 18:52:55
+    Author     : x
+*/
+
+.viewer_left_arrow{
+    background-color: rgba(0, 0, 0, 0.5);
+    background-image: url("../img/left-arrow.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-bottom-right-radius: 9px;
+    border-top-right-radius: 9px;
+    cursor: pointer;
+    height: 36px;
+    left: 0;
+    position: absolute;
+    top: 43px;
+    width: 30px;
+    z-index: 9;
+}
+
+.viewer_right_arrow{
+    background-color: rgba(0, 0, 0, 0.5);
+    background-image: url("../img/right-arrow.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: pointer;
+    height: 34px;
+    position: absolute;
+    right: 0;
+    width: 30px;
+    top: 43px;
+    z-index: 9;
+    border-bottom-left-radius: 9px;
+    border-top-left-radius: 9px;
+}
+
+.viewer_image_wrapper{
+    float: left;
+    height: 123px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    border: 1px solid #e8ebed;
+}
+
+.viewer_image_wrapper img {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    width: 100%;
+}
+#docviewer{
+    left: 0;
+    position: absolute;
+}
+
+.buttons_wrapper {
+    float: left;
+    margin: 0 0 0 29px;
+    width: 97%;
+}
+
+.buttons_wrapper>button{
+    width: 43%;
+    float: left;
+    margin-left: 10px;
+}
